@@ -1,7 +1,7 @@
 {
     "name": "tbx-city-picker",
     "description": "Urban cascading selection plug-in based on vue2.5",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "puchunjie",
     "license": "MIT",
     "private": false,

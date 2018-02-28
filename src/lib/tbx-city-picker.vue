@@ -2,7 +2,7 @@
     <div class="tbx-city-picker-container">
         <div class="ls-picker-container" @click.self="showPanel">
             <span class="value" :class="{ 'place-holder' : placeholderShow }">{{ placeholderShow ? placeholder : label }}</span>
-            <span class="iconfont" :class=" show ? iconDown : iconUp"></span>
+            <span class="iconfont" :class=" show ? iconUp : iconDown"></span>
             <div class="area-box" v-clickoutside="ousideClick" v-if="show">
                 <Spin fix v-show="ajaxLoad">加载中...</Spin>
                 <div class="tabs">
