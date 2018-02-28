@@ -2,17 +2,16 @@
 
 > Urban cascading selection plug-in based on vue2.5
 
-## Build Setup
+## install and use
 
 ``` bash
 # install dependencies
-npm install
+npm install vue-city-picker
 
-# serve with hot reload at localhost:8080
-npm run dev
+import vueCityPicker from 'vue-city-picker'
 
-# build for production with minification
-npm run build
-```
+Vue.use(vueCityPicker)
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#useage
+<vue-city-picker placeholder="装货地" v-model="beginPlaces"></vue-city-picker>
+
