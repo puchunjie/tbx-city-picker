@@ -2,13 +2,13 @@
     "name": "vue-city-picker",
     "description": "Urban cascading selection plug-in based on vue2.5",
     "version": "1.0.0",
-    "author": "jeremy <puchunjie@live.com>",
+    "author": "puchunjie",
     "license": "MIT",
     "private": false,
     "main": "dist/vue-city-picker.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:puchunjie/vue-city-picker.git"
+        "url": "https://github.com/puchunjie/vue-city-picker.git"
     },
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
