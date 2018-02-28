@@ -8,7 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
         // filename: 'build.js'
-        filename: 'vue-city-picker.js',
+        filename: 'tbx-city-picker.js',
         library: 'CityPicker',
         libraryTarget: 'umd',
         umdNamedDefine: true

@@ -1,4 +1,4 @@
-# vue-city-picker
+# tbx-city-picker
 
 > Urban cascading selection plug-in based on vue2.5
 
@@ -6,12 +6,12 @@
 
 ``` bash
 # install dependencies
-npm install vue-city-picker
+npm install tbx-city-picker
 
-import vueCityPicker from 'vue-city-picker'
+import tbxCityPicker from 'tbx-city-picker'
 
-Vue.use(vueCityPicker)
+Vue.use(tbxCityPicker)
 
 #useage
-<vue-city-picker placeholder="装货地" v-model="beginPlaces"></vue-city-picker>
+<tbx-city-picker placeholder="装货地" v-model="beginPlaces"></tbx-city-picker>
 

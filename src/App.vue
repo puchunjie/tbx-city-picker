@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-city-picker placeholder="装货地" v-model="beginPlaces"></vue-city-picker>
+    <tbx-city-picker placeholder="装货地" v-model="beginPlaces"></tbx-city-picker>
   </div>
 </template>
 

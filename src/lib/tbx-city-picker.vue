@@ -1,5 +1,5 @@
 <template>
-    <div class="vue-city-picker-container">
+    <div class="tbx-city-picker-container">
         <div class="ls-picker-container" @click.self="showPanel">
             <span class="value" :class="{ 'place-holder' : placeholderShow }">{{ placeholderShow ? placeholder : label }}</span>
             <span class="iconfont" :class=" show ? 'icon-arrowdown' : 'icon-arrowup'"></span>
@@ -19,7 +19,7 @@
 
 <script>
     export default {
-        name: 'vue-city-picker',
+        name: 'tbx-city-picker',
         props: {
             placeholder: {
                 type: String,
@@ -204,7 +204,7 @@
         -o-transition: @attribute @time;
     }
     
-    .vue-city-picker-container {
+    .tbx-city-picker-container {
         display: inline-block;
         min-width: 100px;
         height: 42px;

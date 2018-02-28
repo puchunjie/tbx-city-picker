@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import vueCityPicker from './lib/index.js'
+import tbxCityPicker from './lib/index.js'
 
-Vue.use(vueCityPicker)
+Vue.use(tbxCityPicker)
 
 
 

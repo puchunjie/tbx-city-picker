@@ -5,10 +5,10 @@
     "author": "puchunjie",
     "license": "MIT",
     "private": false,
-    "main": "dist/vue-city-picker.js",
+    "main": "dist/tbx-city-picker.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/puchunjie/vue-city-picker.git"
+        "url": "https://github.com/puchunjie/tbx-city-picker.git"
     },
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
