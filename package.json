@@ -1,7 +1,7 @@
 {
     "name": "tbx-city-picker",
     "description": "Urban cascading selection plug-in based on vue2.5",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "puchunjie",
     "license": "MIT",
     "private": false,
@@ -11,7 +11,7 @@
         "url": "https://github.com/puchunjie/vue-city-picker.git"
     },
     "scripts": {
-        "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --port 9999 --open --hot",
         "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
     "dependencies": {

@@ -2,7 +2,7 @@
     <div class="tbx-city-picker-container">
         <div class="ls-picker-container" @click.self="showPanel">
             <span class="value" :class="{ 'place-holder' : placeholderShow }">{{ placeholderShow ? placeholder : label }}</span>
-            <span class="iconfont" :class=" show ? 'icon-arrowdown' : 'icon-arrowup'"></span>
+            <span class="iconfont" :class=" show ? iconDown : iconUp"></span>
             <div class="area-box" v-clickoutside="ousideClick" v-if="show">
                 <Spin fix v-show="ajaxLoad">加载中...</Spin>
                 <div class="tabs">
@@ -21,6 +21,14 @@
     export default {
         name: 'tbx-city-picker',
         props: {
+            iconUp:{
+                type:String,
+                default:'icon-arrowup'
+            },
+            iconDown:{
+                type:String,
+                default:'icon-arrowdown'
+            },
             placeholder: {
                 type: String,
                 default: ''
@@ -208,7 +216,7 @@
         display: inline-block;
         min-width: 100px;
         height: 42px;
-        line-height: 42px;
+        line-height: 40px;
         border: 2px solid @bg_color;
         .borderRadius;
         cursor: pointer;
